@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+
+  font-size: 100%;
+  line-height: 1.4;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
