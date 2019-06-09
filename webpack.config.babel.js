@@ -60,10 +60,22 @@ const configuration = {
               },
               pngquant: {
                 speed: 11,
-                quality: [0.9, 1.0]
+                quality: '90-100',
               }
             }
           }
+        ]
+      },
+      {
+        test: /\.woff?/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'fonts'
+            }
+          },
         ]
       }
     ]
