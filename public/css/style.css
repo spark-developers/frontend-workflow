@@ -1,14 +1,12 @@
-body {
-  margin: 0;
-
-  font-size: 100%;
-  line-height: 1.4;
-  font-family: sans-serif;
-  text-align: center;
-}
+@import "./mixins.css";
+@import "./base.css";
 
 img {
   max-width: 500px;
   width: 100%;
   height: auto;
+}
+
+.shopping-list {
+  @apply --list-reset;
 }
